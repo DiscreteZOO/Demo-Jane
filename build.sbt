@@ -25,3 +25,4 @@ Seq(
 )
   )
 
+assemblyOutputPath in assembly := file("dist/zoo.jar")
