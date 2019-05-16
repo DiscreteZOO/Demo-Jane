@@ -7,7 +7,7 @@ mainClass in assembly := Some("xyz.discretezoo.web.WebServer")
 
 organization := "xyz.discretezoo"
 
-scalaVersion := "2.12.4"
+scalaVersion := "2.12.7"
 
 resolvers += "Typesafe Repository" at "http://repo.typesafe.com/typesafe/releases/"
 
@@ -21,10 +21,10 @@ libraryDependencies ++= Seq(
   // cors
   "ch.megard" %% "akka-http-cors" % "0.3.1",
   // slick dependencies
-  "com.typesafe.slick" %% "slick" % "3.2.3",
+  "com.typesafe.slick" %% "slick" % "3.3.0",
   "org.slf4j" % "slf4j-nop" % "1.6.4",
-  "com.typesafe.slick" %% "slick-hikaricp" % "3.2.3",
-  "org.postgresql" % "postgresql" % "42.2.2",
+  "com.typesafe.slick" %% "slick-hikaricp" % "3.3.0",
+  "org.postgresql" % "postgresql" % "42.2.5",
   // arrays for slick
   "com.github.tminglei" %% "slick-pg" % "0.16.2"
 )
